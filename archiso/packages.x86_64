@@ -697,7 +697,7 @@ arcolinux-config-leftwm-git
 #arcolinux-icewm-dconf-git
 #arcolinux-jwm-dconf-git
 #arcolinux-kodi-dconf-git
-arcolinux-leftwm-dconf-git
+#arcolinux-leftwm-dconf-git
 #arcolinux-lxqt-dconf-git
 #arcolinux-mate-dconf-git
 #arcolinux-openbox-dconf-git

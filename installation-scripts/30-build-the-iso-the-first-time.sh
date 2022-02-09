@@ -89,12 +89,12 @@ echo
 	else
 
 		#checking which helper is installed
-		if pacman -Qi yay &> /dev/null; then
+		if pacman -Qi paru &> /dev/null; then
 
 			echo "################################################################"
-			echo "######### Installing with yay"
+			echo "######### Installing with paru"
 			echo "################################################################"
-			yay -S --noconfirm $package
+			paru -S --noconfirm $package
 
 		elif pacman -Qi trizen &> /dev/null; then
 
