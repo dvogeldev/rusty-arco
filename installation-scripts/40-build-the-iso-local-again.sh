@@ -35,8 +35,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 61-1"
-	buildFolder=$HOME"/arcolinux-build"
-	outFolder=$HOME"/ArcoLinux-Out"
+	buildFolder=$HOME"/rusty-build"
+	outFolder=$HOME"/rusty-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "

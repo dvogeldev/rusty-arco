@@ -26,8 +26,8 @@ echo
 	#Let us set the desktop"
 	#First letter of desktop is small letter
 
-	desktop="xfce"
-	dmDesktop="xfce"
+	desktop="leftwm"
+	dmDesktop="leftwm"
 
 	arcolinuxVersion='v22.03.04'
 
@@ -35,8 +35,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 61-1"
-	buildFolder=$HOME"/arcolinux-build"
-	outFolder=$HOME"/ArcoLinux-Out"
+	buildFolder=$HOME"/rusty-build"
+	outFolder=$HOME"/rusty-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
